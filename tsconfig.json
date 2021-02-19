@@ -1,5 +1,6 @@
 {
   "include": ["src"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "target": "ES5",
     "lib": ["DOM","DOM.Iterable","ESNext"],
@@ -15,7 +16,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": true
   }
 }

@@ -1,4 +1,5 @@
 {
+  "include": ["src"],
   "compilerOptions": {
     "target": "ES5",
     "lib": ["DOM","DOM.Iterable","ESNext"],
@@ -16,6 +17,5 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true
-  },
-  "include": ["src"]
+  }
 }
